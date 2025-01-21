@@ -1,0 +1,25 @@
+[project]
+name = "arquitetura-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.6",
+]
+
+[tool.poetry]
+name = "arquitetura-project"
+version = "0.1.0"
+description = ""
+authors = ["mielesantos <mielesnts@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["standard"], version = "^0.115.6"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
